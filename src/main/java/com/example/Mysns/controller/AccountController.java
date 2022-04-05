@@ -10,6 +10,6 @@ public class AccountController {
 
     @GetMapping("login")
     public String login(){
-        return "login/login";
+        return "account/login";
     }
 }
